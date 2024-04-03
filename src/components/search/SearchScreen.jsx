@@ -7,6 +7,7 @@ import { getHeroByNames } from '../../selectors/getHeroByNames';
 
 export const SearchScreen = () => {
 
+
     const searchRef = useRef(null);
     const navigate = useNavigate();
 
